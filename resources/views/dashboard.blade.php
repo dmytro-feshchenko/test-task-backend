@@ -11,6 +11,8 @@
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
                 </div>
+
+                <a href="{{ route('users.index') }}" class="btn btn-warning">Show users</a>
             </div>
         </div>
     </div>
